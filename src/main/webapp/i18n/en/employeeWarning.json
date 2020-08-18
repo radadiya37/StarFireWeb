@@ -1,0 +1,29 @@
+{
+  "starfirewebApp": {
+    "employeeWarning": {
+      "home": {
+        "title": "Employee Warnings",
+        "createLabel": "Create a new Employee Warning",
+        "createOrEditLabel": "Create or edit a Employee Warning",
+        "notFound": "No Employee Warnings found"
+      },
+      "created": "A new Employee Warning is created with identifier {{ param }}",
+      "updated": "A Employee Warning is updated with identifier {{ param }}",
+      "deleted": "A Employee Warning is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Employee Warning {{ id }}?"
+      },
+      "detail": {
+        "title": "Employee Warning"
+      },
+      "warning": "Warning",
+      "action": "Action",
+      "remarks": "Remarks",
+      "isActionType": "Is Action Type",
+      "warningDate": "Warning Date",
+      "warnedEmployee": "Warned Employee",
+      "warnedBy": "Warned By",
+      "warningType": "Warning Type"
+    }
+  }
+}

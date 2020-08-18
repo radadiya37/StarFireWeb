@@ -1,0 +1,28 @@
+{
+  "starfirewebApp": {
+    "employeeFamily": {
+      "home": {
+        "title": "Employee Families",
+        "createLabel": "Create a new Employee Family",
+        "createOrEditLabel": "Create or edit a Employee Family",
+        "notFound": "No Employee Families found"
+      },
+      "created": "A new Employee Family is created with identifier {{ param }}",
+      "updated": "A Employee Family is updated with identifier {{ param }}",
+      "deleted": "A Employee Family is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Employee Family {{ id }}?"
+      },
+      "detail": {
+        "title": "Employee Family"
+      },
+      "name": "Name",
+      "dob": "Dob",
+      "nid": "Nid",
+      "phone": "Phone",
+      "profession": "Profession",
+      "gender": "Gender",
+      "employeeRelationship": "Employee Relationship"
+    }
+  }
+}

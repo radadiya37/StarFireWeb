@@ -1,0 +1,22 @@
+{
+  "starfirewebApp": {
+    "religion": {
+      "home": {
+        "title": "Religions",
+        "createLabel": "Create a new Religion",
+        "createOrEditLabel": "Create or edit a Religion",
+        "notFound": "No Religions found"
+      },
+      "created": "A new Religion is created with identifier {{ param }}",
+      "updated": "A Religion is updated with identifier {{ param }}",
+      "deleted": "A Religion is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Religion {{ id }}?"
+      },
+      "detail": {
+        "title": "Religion"
+      },
+      "name": "Name"
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "name": "EmployeeWarning",
+  "fields": [
+    {
+      "fieldName": "warning",
+      "fieldType": "String",
+      "fieldValidateRules": [
+        "required",
+        "maxlength"
+      ],
+      "fieldValidateRulesMaxlength": "255"
+    },
+    {
+      "fieldName": "action",
+      "fieldType": "String",
+      "fieldValidateRules": [
+        "maxlength"
+      ],
+      "fieldValidateRulesMaxlength": "255"
+    },
+    {
+      "fieldName": "remarks",
+      "fieldType": "String",
+      "fieldValidateRules": [
+        "maxlength"
+      ],
+      "fieldValidateRulesMaxlength": "255"
+    },
+    {
+      "fieldName": "isActionType",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "warningDate",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": [
+        "required"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "employeeBasicInfo",
+      "otherEntityRelationshipName": "employeeWarning",
+      "relationshipValidateRules": "required",
+      "relationshipName": "warnedEmployee",
+      "otherEntityField": "id"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "employeeBasicInfo",
+      "otherEntityRelationshipName": "employeeWarning",
+      "relationshipValidateRules": "required",
+      "relationshipName": "warnedBy",
+      "otherEntityField": "id"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "warningType",
+      "otherEntityRelationshipName": "employeeWarning",
+      "relationshipValidateRules": "required",
+      "relationshipName": "warningType",
+      "otherEntityField": "warningType"
+    }
+  ],
+  "changelogDate": "20200813120641",
+  "entityTableName": "employee_warning",
+  "dto": "no",
+  "pagination": "no",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": true,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

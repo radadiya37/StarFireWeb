@@ -1,0 +1,184 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+
+<head>
+    <base href="/" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>starfireweb</title>
+    <meta name="description" content="Description for Inventory">
+    <meta name="google" content="notranslate">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="manifest" href="manifest.webapp" />
+    <link rel="stylesheet" href="content/css/loading.css">
+    <!-- jhipster-needle-add-resources-to-root - JHipster will add new resources here -->
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="content/plugins/font-awesome/css/font-awesome.min.css">
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="content/dist/css/adminlte.min.css">
+    <!-- iCheck -->
+    <link rel="stylesheet" href="content/plugins/fontawesome-free/css/all.min.css">
+    <!-- icheck bootstrap -->
+    <link rel="stylesheet" href="content/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+
+    <link rel="stylesheet" href="content/plugins/iCheck/flat/blue.css">
+    <!-- Morris chart -->
+    <link rel="stylesheet" href="content/plugins/morris/morris.css">
+    <!-- jvectormap -->
+    <link rel="stylesheet" href="content/plugins/jvectormap/jquery-jvectormap-1.2.2.css">
+    <!-- Date Picker -->
+    <link rel="stylesheet" href="content/plugins/datepicker/datepicker3.css">
+    <!-- Daterange picker -->
+    <link rel="stylesheet" href="content/plugins/daterangepicker/daterangepicker-bs3.css">
+    <!-- bootstrap wysihtml5 - text editor -->
+    <link rel="stylesheet" href="content/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
+    <!-- Google Font: Source Sans Pro -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+</head>
+
+<body class="hold-transition sidebar-mini sidebar-collapse">
+    <!--[if lt IE 9]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <div class="wrapper">
+        <div id="root">
+            <div class="app-loading">
+                <div class="lds-css ng-scope">
+                    <div class="lds-pacman">
+                        <div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="app-loading">
+                <div id="jhipster-error" style="display:none">
+                    <!-- This content is for troubleshooting purpose and will be removed when app renders -->
+                    <h1>An error has occurred :-(</h1>
+                    <h2>Usual error causes</h2>
+                    <ol>
+                        <li>You started the application from an IDE and you didn't run <code style="color:red">npm start</code> or <code style="color:red">npm run webpack:build</code>.</li>
+                        <li>You had a network error while running <code style="color:red">npm install</code>. If you are behind a corporate proxy, it is likely that this error was caused by your proxy. Have a look at the JHipster error logs, you will probably
+                            have the cause of the error.</li>
+                        <li>You installed a Node.js version that doesn't work with JHipster: please use an LTS (long-term support) version, as it's the only version we support.</li>
+                    </ol>
+                    <h2>Building the client side code again</h2>
+                    <p>If you want to go fast, run <code style="color:red">./mvnw</code> to build and run everything.
+                    </p>
+                    <p>If you want to have more control, so you can debug your issue more easily, you should follow the following steps:</p>
+                    <ol>
+                        <li>Install npm dependencies with the command <code style="color:red">npm install</code></li>
+                        <li>Build the client with the command <code style="color:red">npm run webpack:build</code> or
+                            <code style="color:red">npm start</code></li>
+                        <li>Start the server with <code style="color:red">./mvnw</code> or using your IDE</li>
+                    </ol>
+
+                    <h2>Getting more help</h2>
+
+                    <h3>If you have a question on how to use JHipster</h3>
+                    <p>
+                        Go to Stack Overflow with the <a href="http://stackoverflow.com/tags/jhipster" target="_blank" rel="noopener noreferrer">"jhipster"</a> tag.
+                    </p>
+
+                    <h3>If you have a bug or a feature request</h3>
+                    <p>
+                        First read our <a href="https://github.com/jhipster/generator-jhipster/blob/master/CONTRIBUTING.md" target="_blank" rel="noopener noreferrer">contributing guidelines</a>.
+                    </p>
+                    <p>
+                        Then, fill a ticket on our <a href="https://github.com/jhipster/generator-jhipster/issues/new/choose" target="_blank" rel="noopener noreferrer">bug tracker</a>, we'll be happy to resolve your issue!
+                    </p>
+
+                    <h3>If you want to chat with contributors and other users</h3>
+                    <p>
+                        Join our chat room on <a href="https://gitter.im/jhipster/generator-jhipster" target="_blank" rel="noopener noreferrer">Gitter.im</a>. Please note that this is a public chat room, and that we expect you to respect other people
+                        and write in a correct English language!
+                    </p>
+                    <!-- end of troubleshooting content -->
+                </div>
+            </div>
+        </div>
+        <noscript>
+            <h1>You must enable javascript to view this page.</h1>
+        </noscript>
+    </div>
+    <!-- jQuery -->
+    <script src="content/plugins/jquery/jquery.min.js"></script>
+    <!-- jQuery UI 1.11.4 -->
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+    <script>
+        $.widget.bridge('uibutton', $.ui.button)
+    </script>
+    <!-- Bootstrap 4 -->
+    <script src="content/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Morris.js charts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+    <script src="content/plugins/morris/morris.min.js"></script>
+    <!-- Sparkline -->
+    <script src="content/plugins/sparkline/jquery.sparkline.min.js"></script>
+    <!-- jvectormap -->
+    <script src="content/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
+    <script src="content/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+    <!-- jQuery Knob Chart -->
+    <script src="content/plugins/knob/jquery.knob.js"></script>
+    <!-- daterangepicker -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.2/moment.min.js"></script>
+    <script src="content/plugins/daterangepicker/daterangepicker.js"></script>
+    <!-- datepicker -->
+    <script src="content/plugins/datepicker/bootstrap-datepicker.js"></script>
+    <!-- Bootstrap WYSIHTML5 -->
+    <script src="content/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
+    <!-- Slimscroll -->
+    <script src="content/plugins/slimScroll/jquery.slimscroll.min.js"></script>
+    <!-- FastClick -->
+    <script src="content/plugins/fastclick/fastclick.js"></script>
+
+    <!-- AdminLTE App -->
+    <script src="content/dist/js/adminlte.min.js"></script>
+    <script type="text/javascript" language="javascript">
+        window.onload = function() {
+            setTimeout(showError, 4000);
+        }
+
+        function showError() {
+            var errorElm = document.getElementById("jhipster-error");
+            if (errorElm && errorElm.style) {
+                errorElm.style.display = "block";
+            }
+        }
+    </script>
+    <!-- uncomment this for adding service worker
+        <script>
+            if ('serviceWorker' in navigator) {
+                window.addEventListener('load', function() {
+                    navigator.serviceWorker.register('/service-worker.js')
+                        .then(function () {
+                            console.log('Service Worker Registered');
+                        });
+                });
+            }
+        </script>
+    -->
+    <!-- Google Analytics: uncomment and change UA-XXXXX-X to be your site's ID.
+    <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>-->
+</body>
+
+</html>

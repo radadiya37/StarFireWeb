@@ -1,0 +1,22 @@
+{
+  "starfirewebApp": {
+    "personalRelationship": {
+      "home": {
+        "title": "Personal Relationships",
+        "createLabel": "Create a new Personal Relationship",
+        "createOrEditLabel": "Create or edit a Personal Relationship",
+        "notFound": "No Personal Relationships found"
+      },
+      "created": "A new Personal Relationship is created with identifier {{ param }}",
+      "updated": "A Personal Relationship is updated with identifier {{ param }}",
+      "deleted": "A Personal Relationship is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Personal Relationship {{ id }}?"
+      },
+      "detail": {
+        "title": "Personal Relationship"
+      },
+      "name": "Name"
+    }
+  }
+}

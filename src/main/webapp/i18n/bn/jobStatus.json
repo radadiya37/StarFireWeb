@@ -1,0 +1,24 @@
+{
+  "starfirewebApp": {
+    "jobStatus": {
+      "home": {
+        "title": "Job Statuses",
+        "createLabel": "Create a new Job Status",
+        "createOrEditLabel": "Create or edit a Job Status",
+        "notFound": "No Job Statuses found"
+      },
+      "created": "A new Job Status is created with identifier {{ param }}",
+      "updated": "A Job Status is updated with identifier {{ param }}",
+      "deleted": "A Job Status is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Job Status {{ id }}?"
+      },
+      "detail": {
+        "title": "Job Status"
+      },
+      "code": "Code",
+      "description": "Description",
+      "status": "Status"
+    }
+  }
+}

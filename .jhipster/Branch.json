@@ -1,0 +1,49 @@
+{
+  "name": "Branch",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": [
+        "required",
+        "maxlength",
+        "pattern"
+      ],
+      "fieldValidateRulesMaxlength": "100",
+      "fieldValidateRulesPattern": "[A-Za-z]+"
+    },
+    {
+      "fieldName": "isRemoteAttendanceAllowed",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "radiusInMeter",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "isHeadOffice",
+      "fieldType": "Boolean"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "timeZone",
+      "otherEntityRelationshipName": "branch",
+      "relationshipValidateRules": "required",
+      "relationshipName": "timeZone",
+      "otherEntityField": "name"
+    }
+  ],
+  "changelogDate": "20200813112941",
+  "entityTableName": "branch",
+  "dto": "no",
+  "pagination": "no",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": true,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

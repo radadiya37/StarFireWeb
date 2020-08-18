@@ -1,0 +1,24 @@
+{
+  "starfirewebApp": {
+    "employeeLanguage": {
+      "home": {
+        "title": "Employee Languages",
+        "createLabel": "Create a new Employee Language",
+        "createOrEditLabel": "Create or edit a Employee Language",
+        "notFound": "No Employee Languages found"
+      },
+      "created": "A new Employee Language is created with identifier {{ param }}",
+      "updated": "A Employee Language is updated with identifier {{ param }}",
+      "deleted": "A Employee Language is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Employee Language {{ id }}?"
+      },
+      "detail": {
+        "title": "Employee Language"
+      },
+      "employee": "Employee",
+      "language": "Language",
+      "languageProficiency": "Language Proficiency"
+    }
+  }
+}

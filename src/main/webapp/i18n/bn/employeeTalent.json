@@ -1,0 +1,24 @@
+{
+  "starfirewebApp": {
+    "employeeTalent": {
+      "home": {
+        "title": "Employee Talents",
+        "createLabel": "Create a new Employee Talent",
+        "createOrEditLabel": "Create or edit a Employee Talent",
+        "notFound": "No Employee Talents found"
+      },
+      "created": "A new Employee Talent is created with identifier {{ param }}",
+      "updated": "A Employee Talent is updated with identifier {{ param }}",
+      "deleted": "A Employee Talent is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Employee Talent {{ id }}?"
+      },
+      "detail": {
+        "title": "Employee Talent"
+      },
+      "remarks": "Remarks",
+      "talentType": "Talent Type",
+      "employee": "Employee"
+    }
+  }
+}

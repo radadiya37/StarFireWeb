@@ -1,0 +1,34 @@
+{
+  "starfirewebApp": {
+    "employeeJobStatus": {
+      "home": {
+        "title": "Employee Job Statuses",
+        "createLabel": "Create a new Employee Job Status",
+        "createOrEditLabel": "Create or edit a Employee Job Status",
+        "notFound": "No Employee Job Statuses found"
+      },
+      "created": "A new Employee Job Status is created with identifier {{ param }}",
+      "updated": "A Employee Job Status is updated with identifier {{ param }}",
+      "deleted": "A Employee Job Status is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Employee Job Status {{ id }}?"
+      },
+      "detail": {
+        "title": "Employee Job Status"
+      },
+      "jobStatusEfDate": "Job Status Ef Date",
+      "jobBaseEfDate": "Job Base Ef Date",
+      "employmentCatEfDate": "Employment Cat Ef Date",
+      "designationEfDate": "Designation Ef Date",
+      "jobLevelEfDate": "Job Level Ef Date",
+      "functionalDesignationEfDate": "Functional Designation Ef Date",
+      "jobStatus": "Job Status",
+      "jobBase": "Job Base",
+      "employmentCategory": "Employment Category",
+      "designation": "Designation",
+      "jobLevel": "Job Level",
+      "functionalDesignation": "Functional Designation",
+      "employee": "Employee"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "starfirewebApp": {
+    "employeePassport": {
+      "home": {
+        "title": "Employee Passports",
+        "createLabel": "Create a new Employee Passport",
+        "createOrEditLabel": "Create or edit a Employee Passport",
+        "notFound": "No Employee Passports found"
+      },
+      "created": "A new Employee Passport is created with identifier {{ param }}",
+      "updated": "A Employee Passport is updated with identifier {{ param }}",
+      "deleted": "A Employee Passport is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Employee Passport {{ id }}?"
+      },
+      "detail": {
+        "title": "Employee Passport"
+      },
+      "passportType": "Passport Type",
+      "passportNo": "Passport No",
+      "issueDate": "Issue Date",
+      "expireDate": "Expire Date",
+      "country": "Country",
+      "employee": "Employee"
+    }
+  }
+}

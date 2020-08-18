@@ -1,0 +1,45 @@
+{
+  "name": "EmployeeSupervisor",
+  "fields": [
+    {
+      "fieldName": "isDirectSupervisor",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "effectiveDate",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": [
+        "required"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "employeeBasicInfo",
+      "otherEntityRelationshipName": "employeeSupervisor",
+      "relationshipValidateRules": "required",
+      "relationshipName": "employee",
+      "otherEntityField": "id"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "employeeBasicInfo",
+      "otherEntityRelationshipName": "employeeSupervisor",
+      "relationshipValidateRules": "required",
+      "relationshipName": "supervisor",
+      "otherEntityField": "id"
+    }
+  ],
+  "changelogDate": "20200813120541",
+  "entityTableName": "employee_supervisor",
+  "dto": "no",
+  "pagination": "no",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": true,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

@@ -1,0 +1,80 @@
+{
+  "name": "EmployeeEducation",
+  "fields": [
+    {
+      "fieldName": "passedYear",
+      "fieldType": "Integer",
+      "fieldValidateRules": [
+        "required"
+      ]
+    },
+    {
+      "fieldName": "cgpa",
+      "fieldType": "Float",
+      "fieldValidateRules": [
+        "required"
+      ]
+    },
+    {
+      "fieldName": "scale",
+      "fieldType": "Float",
+      "fieldValidateRules": [
+        "required"
+      ]
+    },
+    {
+      "fieldName": "hasForeignDegree",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "isProfessional",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "isLastEducation",
+      "fieldType": "Boolean"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "education",
+      "otherEntityRelationshipName": "employeeEducation",
+      "relationshipName": "education",
+      "otherEntityField": "name"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "grade",
+      "otherEntityRelationshipName": "employeeEducation",
+      "relationshipName": "grade",
+      "otherEntityField": "name"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "educationInstitute",
+      "otherEntityRelationshipName": "employeeEducation",
+      "relationshipName": "institute",
+      "otherEntityField": "name"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "employeeBasicInfo",
+      "otherEntityRelationshipName": "employeeEducation",
+      "relationshipValidateRules": "required",
+      "relationshipName": "employee",
+      "otherEntityField": "id"
+    }
+  ],
+  "changelogDate": "20200813120041",
+  "entityTableName": "employee_education",
+  "dto": "no",
+  "pagination": "no",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": true,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

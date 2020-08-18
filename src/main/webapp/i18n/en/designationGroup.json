@@ -1,0 +1,23 @@
+{
+  "starfirewebApp": {
+    "designationGroup": {
+      "home": {
+        "title": "Designation Groups",
+        "createLabel": "Create a new Designation Group",
+        "createOrEditLabel": "Create or edit a Designation Group",
+        "notFound": "No Designation Groups found"
+      },
+      "created": "A new Designation Group is created with identifier {{ param }}",
+      "updated": "A Designation Group is updated with identifier {{ param }}",
+      "deleted": "A Designation Group is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Designation Group {{ id }}?"
+      },
+      "detail": {
+        "title": "Designation Group"
+      },
+      "name": "Name",
+      "status": "Status"
+    }
+  }
+}

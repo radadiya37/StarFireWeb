@@ -1,0 +1,24 @@
+{
+  "starfirewebApp": {
+    "jobBase": {
+      "home": {
+        "title": "Job Bases",
+        "createLabel": "Create a new Job Base",
+        "createOrEditLabel": "Create or edit a Job Base",
+        "notFound": "No Job Bases found"
+      },
+      "created": "A new Job Base is created with identifier {{ param }}",
+      "updated": "A Job Base is updated with identifier {{ param }}",
+      "deleted": "A Job Base is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Job Base {{ id }}?"
+      },
+      "detail": {
+        "title": "Job Base"
+      },
+      "name": "Name",
+      "code": "Code",
+      "isSystemReserved": "Is System Reserved"
+    }
+  }
+}

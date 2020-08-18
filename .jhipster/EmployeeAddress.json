@@ -1,0 +1,39 @@
+{
+  "name": "EmployeeAddress",
+  "fields": [],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "employeeBasicInfo",
+      "otherEntityRelationshipName": "employeeAddress",
+      "relationshipValidateRules": "required",
+      "relationshipName": "employee",
+      "otherEntityField": "id"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "address",
+      "otherEntityRelationshipName": "employeeAddress",
+      "relationshipName": "presentAddress",
+      "otherEntityField": "address"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "address",
+      "otherEntityRelationshipName": "employeeAddress",
+      "relationshipName": "permanentAddress",
+      "otherEntityField": "address"
+    }
+  ],
+  "changelogDate": "20200813120341",
+  "entityTableName": "employee_address",
+  "dto": "no",
+  "pagination": "no",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": true,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

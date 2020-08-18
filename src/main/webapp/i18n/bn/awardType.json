@@ -1,0 +1,23 @@
+{
+  "starfirewebApp": {
+    "awardType": {
+      "home": {
+        "title": "Award Types",
+        "createLabel": "Create a new Award Type",
+        "createOrEditLabel": "Create or edit a Award Type",
+        "notFound": "No Award Types found"
+      },
+      "created": "A new Award Type is created with identifier {{ param }}",
+      "updated": "A Award Type is updated with identifier {{ param }}",
+      "deleted": "A Award Type is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Award Type {{ id }}?"
+      },
+      "detail": {
+        "title": "Award Type"
+      },
+      "awardType": "Award Type",
+      "description": "Description"
+    }
+  }
+}

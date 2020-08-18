@@ -1,0 +1,29 @@
+{
+  "starfirewebApp": {
+    "employeeEmployment": {
+      "home": {
+        "title": "Employee Employments",
+        "createLabel": "Create a new Employee Employment",
+        "createOrEditLabel": "Create or edit a Employee Employment",
+        "notFound": "No Employee Employments found"
+      },
+      "created": "A new Employee Employment is created with identifier {{ param }}",
+      "updated": "A Employee Employment is updated with identifier {{ param }}",
+      "deleted": "A Employee Employment is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Employee Employment {{ id }}?"
+      },
+      "detail": {
+        "title": "Employee Employment"
+      },
+      "companyName": "Company Name",
+      "address": "Address",
+      "jobTitle": "Job Title",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "lastSalary": "Last Salary",
+      "remarks": "Remarks",
+      "employee": "Employee"
+    }
+  }
+}

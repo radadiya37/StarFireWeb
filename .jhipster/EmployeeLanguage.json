@@ -1,0 +1,41 @@
+{
+  "name": "EmployeeLanguage",
+  "fields": [],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "employeeBasicInfo",
+      "otherEntityRelationshipName": "employeeLanguage",
+      "relationshipValidateRules": "required",
+      "relationshipName": "employee",
+      "otherEntityField": "id"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "language",
+      "otherEntityRelationshipName": "employeeLanguage",
+      "relationshipValidateRules": "required",
+      "relationshipName": "language",
+      "otherEntityField": "name"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "languageProficiency",
+      "otherEntityRelationshipName": "employeeLanguage",
+      "relationshipValidateRules": "required",
+      "relationshipName": "languageProficiency",
+      "otherEntityField": "name"
+    }
+  ],
+  "changelogDate": "20200813120241",
+  "entityTableName": "employee_language",
+  "dto": "no",
+  "pagination": "no",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": true,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

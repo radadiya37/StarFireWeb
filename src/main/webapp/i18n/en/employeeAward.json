@@ -1,0 +1,29 @@
+{
+  "starfirewebApp": {
+    "employeeAward": {
+      "home": {
+        "title": "Employee Awards",
+        "createLabel": "Create a new Employee Award",
+        "createOrEditLabel": "Create or edit a Employee Award",
+        "notFound": "No Employee Awards found"
+      },
+      "created": "A new Employee Award is created with identifier {{ param }}",
+      "updated": "A Employee Award is updated with identifier {{ param }}",
+      "deleted": "A Employee Award is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Employee Award {{ id }}?"
+      },
+      "detail": {
+        "title": "Employee Award"
+      },
+      "awardDate": "Award Date",
+      "awardName": "Award Name",
+      "gift": "Gift",
+      "prizeAmount": "Prize Amount",
+      "awardCertificatePath": "Award Certificate Path",
+      "remarks": "Remarks",
+      "awardType": "Award Type",
+      "employee": "Employee"
+    }
+  }
+}

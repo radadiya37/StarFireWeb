@@ -1,0 +1,36 @@
+{
+  "starfirewebApp": {
+    "employeeBasicInfo": {
+      "home": {
+        "title": "Employee Basic Infos",
+        "createLabel": "Create a new Employee Basic Info",
+        "createOrEditLabel": "Create or edit a Employee Basic Info",
+        "notFound": "No Employee Basic Infos found"
+      },
+      "created": "A new Employee Basic Info is created with identifier {{ param }}",
+      "updated": "A Employee Basic Info is updated with identifier {{ param }}",
+      "deleted": "A Employee Basic Info is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Employee Basic Info {{ id }}?"
+      },
+      "detail": {
+        "title": "Employee Basic Info"
+      },
+      "code": "Code",
+      "dob": "Dob",
+      "personalEmail": "Personal Email",
+      "phone": "Phone",
+      "telephone": "Telephone",
+      "nationality": "Nationality",
+      "photoPath": "Photo Path",
+      "status": "Status",
+      "gender": "Gender",
+      "joinDate": "Join Date",
+      "reviewMonth": "Review Month",
+      "user": "User",
+      "religion": "Religion",
+      "maritalStatus": "Marital Status",
+      "bloodGroup": "Blood Group"
+    }
+  }
+}

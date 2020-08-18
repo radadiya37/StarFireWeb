@@ -1,0 +1,25 @@
+{
+  "starfirewebApp": {
+    "employeeSupervisor": {
+      "home": {
+        "title": "Employee Supervisors",
+        "createLabel": "Create a new Employee Supervisor",
+        "createOrEditLabel": "Create or edit a Employee Supervisor",
+        "notFound": "No Employee Supervisors found"
+      },
+      "created": "A new Employee Supervisor is created with identifier {{ param }}",
+      "updated": "A Employee Supervisor is updated with identifier {{ param }}",
+      "deleted": "A Employee Supervisor is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Employee Supervisor {{ id }}?"
+      },
+      "detail": {
+        "title": "Employee Supervisor"
+      },
+      "isDirectSupervisor": "Is Direct Supervisor",
+      "effectiveDate": "Effective Date",
+      "employee": "Employee",
+      "supervisor": "Supervisor"
+    }
+  }
+}

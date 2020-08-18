@@ -1,0 +1,31 @@
+{
+  "starfirewebApp": {
+    "employeeEducation": {
+      "home": {
+        "title": "Employee Educations",
+        "createLabel": "Create a new Employee Education",
+        "createOrEditLabel": "Create or edit a Employee Education",
+        "notFound": "No Employee Educations found"
+      },
+      "created": "A new Employee Education is created with identifier {{ param }}",
+      "updated": "A Employee Education is updated with identifier {{ param }}",
+      "deleted": "A Employee Education is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Employee Education {{ id }}?"
+      },
+      "detail": {
+        "title": "Employee Education"
+      },
+      "passedYear": "Passed Year",
+      "cgpa": "Cgpa",
+      "scale": "Scale",
+      "hasForeignDegree": "Has Foreign Degree",
+      "isProfessional": "Is Professional",
+      "isLastEducation": "Is Last Education",
+      "education": "Education",
+      "grade": "Grade",
+      "institute": "Institute",
+      "employee": "Employee"
+    }
+  }
+}

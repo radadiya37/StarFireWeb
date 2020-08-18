@@ -1,0 +1,26 @@
+{
+  "starfirewebApp": {
+    "companyBank": {
+      "home": {
+        "title": "Company Banks",
+        "createLabel": "Create a new Company Bank",
+        "createOrEditLabel": "Create or edit a Company Bank",
+        "notFound": "No Company Banks found"
+      },
+      "created": "A new Company Bank is created with identifier {{ param }}",
+      "updated": "A Company Bank is updated with identifier {{ param }}",
+      "deleted": "A Company Bank is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Company Bank {{ id }}?"
+      },
+      "detail": {
+        "title": "Company Bank"
+      },
+      "name": "Name",
+      "address": "Address",
+      "routingCode": "Routing Code",
+      "accountName": "Account Name",
+      "accountNo": "Account No"
+    }
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "name": "EmployeeJobStatus",
+  "fields": [
+    {
+      "fieldName": "jobStatusEfDate",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": [
+        "required"
+      ]
+    },
+    {
+      "fieldName": "jobBaseEfDate",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": [
+        "required"
+      ]
+    },
+    {
+      "fieldName": "employmentCatEfDate",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": [
+        "required"
+      ]
+    },
+    {
+      "fieldName": "designationEfDate",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": [
+        "required"
+      ]
+    },
+    {
+      "fieldName": "jobLevelEfDate",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": [
+        "required"
+      ]
+    },
+    {
+      "fieldName": "functionalDesignationEfDate",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": [
+        "required"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "jobStatus",
+      "otherEntityRelationshipName": "employeeJobStatus",
+      "relationshipValidateRules": "required",
+      "relationshipName": "jobStatus",
+      "otherEntityField": "description"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "jobBase",
+      "otherEntityRelationshipName": "employeeJobStatus",
+      "relationshipValidateRules": "required",
+      "relationshipName": "jobBase",
+      "otherEntityField": "name"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "employmentCategory",
+      "otherEntityRelationshipName": "employeeJobStatus",
+      "relationshipValidateRules": "required",
+      "relationshipName": "employmentCategory",
+      "otherEntityField": "name"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "designation",
+      "otherEntityRelationshipName": "employeeJobStatus",
+      "relationshipValidateRules": "required",
+      "relationshipName": "designation",
+      "otherEntityField": "name"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "jobLevel",
+      "otherEntityRelationshipName": "employeeJobStatus",
+      "relationshipValidateRules": "required",
+      "relationshipName": "jobLevel",
+      "otherEntityField": "name"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "functionalDesignation",
+      "otherEntityRelationshipName": "employeeJobStatus",
+      "relationshipValidateRules": "required",
+      "relationshipName": "functionalDesignation",
+      "otherEntityField": "name"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "employeeBasicInfo",
+      "otherEntityRelationshipName": "employeeJobStatus",
+      "relationshipName": "employee",
+      "otherEntityField": "id"
+    }
+  ],
+  "changelogDate": "20200813121041",
+  "entityTableName": "employee_job_status",
+  "dto": "no",
+  "pagination": "no",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": true,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

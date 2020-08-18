@@ -1,0 +1,28 @@
+{
+  "starfirewebApp": {
+    "functionalDesignation": {
+      "home": {
+        "title": "Functional Designations",
+        "createLabel": "Create a new Functional Designation",
+        "createOrEditLabel": "Create or edit a Functional Designation",
+        "notFound": "No Functional Designations found"
+      },
+      "created": "A new Functional Designation is created with identifier {{ param }}",
+      "updated": "A Functional Designation is updated with identifier {{ param }}",
+      "deleted": "A Functional Designation is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Functional Designation {{ id }}?"
+      },
+      "detail": {
+        "title": "Functional Designation"
+      },
+      "name": "Name",
+      "code": "Code",
+      "position": "Position",
+      "shortName": "Short Name",
+      "description": "Description",
+      "designationDate": "Designation Date",
+      "status": "Status"
+    }
+  }
+}

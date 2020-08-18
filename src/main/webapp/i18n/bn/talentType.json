@@ -1,0 +1,23 @@
+{
+  "starfirewebApp": {
+    "talentType": {
+      "home": {
+        "title": "Talent Types",
+        "createLabel": "Create a new Talent Type",
+        "createOrEditLabel": "Create or edit a Talent Type",
+        "notFound": "No Talent Types found"
+      },
+      "created": "A new Talent Type is created with identifier {{ param }}",
+      "updated": "A Talent Type is updated with identifier {{ param }}",
+      "deleted": "A Talent Type is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Talent Type {{ id }}?"
+      },
+      "detail": {
+        "title": "Talent Type"
+      },
+      "talentType": "Talent Type",
+      "description": "Description"
+    }
+  }
+}

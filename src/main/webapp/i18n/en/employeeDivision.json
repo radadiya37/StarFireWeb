@@ -1,0 +1,27 @@
+{
+  "starfirewebApp": {
+    "employeeDivision": {
+      "home": {
+        "title": "Employee Divisions",
+        "createLabel": "Create a new Employee Division",
+        "createOrEditLabel": "Create or edit a Employee Division",
+        "notFound": "No Employee Divisions found"
+      },
+      "created": "A new Employee Division is created with identifier {{ param }}",
+      "updated": "A Employee Division is updated with identifier {{ param }}",
+      "deleted": "A Employee Division is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Employee Division {{ id }}?"
+      },
+      "detail": {
+        "title": "Employee Division"
+      },
+      "effectiveDate": "Effective Date",
+      "division": "Division",
+      "department": "Department",
+      "branch": "Branch",
+      "unit": "Unit",
+      "employee": "Employee"
+    }
+  }
+}

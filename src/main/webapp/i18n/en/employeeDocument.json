@@ -1,0 +1,26 @@
+{
+  "starfirewebApp": {
+    "employeeDocument": {
+      "home": {
+        "title": "Employee Documents",
+        "createLabel": "Create a new Employee Document",
+        "createOrEditLabel": "Create or edit a Employee Document",
+        "notFound": "No Employee Documents found"
+      },
+      "created": "A new Employee Document is created with identifier {{ param }}",
+      "updated": "A Employee Document is updated with identifier {{ param }}",
+      "deleted": "A Employee Document is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Employee Document {{ id }}?"
+      },
+      "detail": {
+        "title": "Employee Document"
+      },
+      "documentTitle": "Document Title",
+      "documentPath": "Document Path",
+      "remarks": "Remarks",
+      "documentCategory": "Document Category",
+      "employee": "Employee"
+    }
+  }
+}
